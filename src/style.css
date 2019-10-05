@@ -1,0 +1,60 @@
+*
+{
+    padding: 0pt;
+    margin: 0pt;
+}
+
+body
+{
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+background-image: url(fondo.jpg);
+}
+
+header{
+    margin-top: 5pt;
+    text-align: center;
+}
+
+section
+{
+    display: inline-block;
+    border:rgb(70, 118, 221) 4pt solid;
+    padding: 10pt;
+    margin:5pt 200pt 80pt;
+    text-align: center;
+    background: whitesmoke;
+}
+
+#info
+{
+    text-align: justify;
+    margin:10pt;
+    background: rgb(169, 199, 245);
+}
+button
+{
+  width: 180px;
+  height: 60px;
+  text-align: center;
+  background:rgb(169, 199, 245);
+  font:bold 15pt "Trebuchet MS";
+  border:rgb(70, 118, 221) 2pt solid;
+  border-radius: 10pt;
+}
+
+.ocultar
+{
+    display: none;
+}
+
+input[type=text1]
+{
+    width: 200pt;
+    height: 100pt;
+}
+
+img
+{
+    width: 220pt;
+    height: 120pt;
+}
