@@ -9,45 +9,50 @@
 </head>
 <body>
     
-    <img src="logo.png" alt="logo">
+    
     <header>
-        <h1>Denuncia de casos</h1>
-    </header>
-    <section id="info">
-        
-        <p>CHS Alternativo es una organización especializada con 15 años de trabajo promoviendo la protección de los derechos humanos de las personas, en particular de las niñas, niños y adolescentes, en situación de vulnerabilidad a causa de la trata de personas, ESNNA, trabajo infantil y trabajo forzoso. Su sede central está en la ciudad de Lima y cuenta con tres oficinas regionales en Loreto, Cusco y Madre de Dios. Tiene presencia nacional, a través de sus diversos proyectos e instituciones aliadas, en Piura, Arequipa y Puno.</p>
-    </section>
+            <img src="logo.png" alt="logo">
 
+    </header>
     <section id="ingreso">
-        <img src="inicio.jpg" alt=""><br><br>
+        <section id="info">
+        <p><b>CHS Alternativo</b> es una organización especializada con 15 años de trabajo promoviendo la protección de los derechos humanos de las personas, en particular de las niñas, niños y adolescentes, en situación de vulnerabilidad a causa de la <b><em>trata de personas, ESNNA, trabajo infantil y trabajo forzoso</em></b>. Su sede central está en la ciudad de Lima y cuenta con tres oficinas regionales en Loreto, Cusco y Madre de Dios. Tiene presencia nacional, a través de sus diversos proyectos e instituciones aliadas, en Piura, Arequipa y Puno.</p>
+        </section>
+        <img src="trata.jpg" alt=""><br><br>
         <button id="b1">CUENTANOS TU HISTORIA</button>
         <button id="b2">DESCIFRAR MENSAJE</button>
     </section>
 
+    
     <section id="cuenta">
-        <h2>ESTAMOS PARA AYUDARTE</h2>
-        <label for="">Ingrese tu nombre:</label>
-        <input type="text"  id="name"><br>
-        <label for="">Escribe un número <em>Este numero sera tu clave</em></label>
-        <input type="text" id="num"><br>
-        <label for="">Cuentanos tu historia</label>
-        <input type="text" id="historia">
+        <h2>ESTAMOS PARA AYUDARTE</h2><br><br>
+        <label for="">Ingrese tus datos:</label>
+        <form id="form1">
+        <input type="text"  id="name" placeholder="Nombres Completos"><br><br>
+        <label for="">Codigo de Seguridad:</label>
+        <input type="text" id="num" placeholder="Escriba un numero"><br><br>
+        <textarea id="historia" cols="30" rows="10" placeholder="Escribe tu historia"></textarea>
+        <textarea id="cifrado" cols="30" rows="10" placeholder="Mensaje Cifrado..."></textarea><br>
+        </form>
         <button id="cifrar">CIFRAR EL CODIGO</button>
-        <input type="text" id="cifrado">        
+        <button id="inicio1">IR AL INICIO</button>     
     </section>
+    
 
     <section id="descifrando">
-        <h2>DESCIFRADO DE MENSAJES</h2>
-        <label for="">Escribe tu clave</label>
-        <input type="text" id="clave"><br>
-        <label for="">Escribe el mensaje a descifrar</label>}
-        <input type="text" id="historia1">
-        <button id="descifrar">DESCIFRAR EL CODIGO</button>
-        <input type="text" id="descifrado"> 
+        <h2>DESCIFRADO DE MENSAJES</h2><br>
+        <label for="">Clave de Seguridad:</label>
+        <form id="form2">
+        <input type="text" id="clave" placeholder="Ingrese un numero"><br><br>
+        <textarea id="historia1" cols="30" rows="10" placeholder="Escriba tu mensaje cifrado"></textarea>
+        <textarea id="descifrado" cols="30" rows="10" placeholder="El mensaje real es..."></textarea><br>
+        </form>
+        <button id="descifrar">DESCIFRAR EL CODIGO</button><br><br>
+        
+        <button id="inicio2">IR AL INICIO</button>
 
     </section>
     <footer>@Mishel Paredes - Laboratoria </footer>
-    <script src="app.js"></script>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
 </body>

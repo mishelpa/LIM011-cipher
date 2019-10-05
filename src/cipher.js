@@ -1,5 +1,3 @@
-import { decode } from "punycode";
-
 window.cipher = {
   // Acá escribe tu código.
   encode: (string, offset) => {
@@ -14,20 +12,21 @@ window.cipher = {
               if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122)
               {
                 nuevoAscii = (string.charCodeAt(i) - 97 + parseInt(offset)) % 26 + 97;
-                mensajeCifrado += String.fromCharCode(textChar);
+                mensajeCifrado += String.fromCharCode(nuevoAscii);
               }
               else 
               {
-              mensajeCifrado += String[i];
+              mensajeCifrado += string[i];
               }
     }
-    return mensajeCifrado;
+    
 }
-
+return mensajeCifrado;
     
 },
 decode: (string,offset) => {
-  let=mensajeDesCifrado="";
+
+  let mensajeDescifrado="";
   for(let i=0;i<string.length;i++){
     if (string.charCodeAt(i)>=65 && string.charCodeAt(i)<=90 )
     {
@@ -43,7 +42,7 @@ decode: (string,offset) => {
         }
         else
         {
-            mensajeDescifrado+=String[i];
+            mensajeDescifrado+=string[i];
         }
     }
 }

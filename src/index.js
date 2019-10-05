@@ -14,10 +14,10 @@ document.getElementById("b2").addEventListener("click",function(){
 
 document.getElementById("cifrar").addEventListener("click",function (){
 
-    const numero=document.getElementById("num").value;
-    const nombre=document.getElementById("name").value;
-    const hist=document.getElementById("historia").value;
-    const mensaje1=nombre+ " " + hist; 
+    let numero=document.getElementById("num").value;
+    let nombre=document.getElementById("name").value;
+    let hist=document.getElementById("historia").value;
+    let mensaje1=nombre+ " " + hist; 
  
     document.getElementById("cifrado").value=window.cipher.encode(mensaje1, numero);
 })
