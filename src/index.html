@@ -14,45 +14,58 @@
             <img src="logo.png" alt="logo">
 
     </header>
-    <section id="ingreso">
-        <section id="info">
+    <section id = "ingreso">
+        <section id = "info">
         <p><b>CHS Alternativo</b> es una organización especializada con 15 años de trabajo promoviendo la protección de los derechos humanos de las personas, en particular de las niñas, niños y adolescentes, en situación de vulnerabilidad a causa de la <b><em>trata de personas, ESNNA, trabajo infantil y trabajo forzoso</em></b>. Su sede central está en la ciudad de Lima y cuenta con tres oficinas regionales en Loreto, Cusco y Madre de Dios. Tiene presencia nacional, a través de sus diversos proyectos e instituciones aliadas, en Piura, Arequipa y Puno.</p>
         </section>
-        <img src="trata.jpg" alt=""><br><br>
-        <button id="b1">CUENTANOS TU HISTORIA</button>
-        <button id="b2">DESCIFRAR MENSAJE</button>
+        <img src="trata.jpg" alt = ""><br>
+        <button id = "b1"><b>CUENTANOS TU HISTORIA</b></button>
+        <button id = "b2"><b>DESCIFRAR UN MENSAJE</b></button>
     </section>
 
     
-    <section id="cuenta">
-        <h2>ESTAMOS PARA AYUDARTE</h2><br><br>
-        <label for="">Ingrese tus datos:</label>
-        <form id="form1">
-        <input type="text"  id="name" placeholder="Nombres Completos"><br><br>
-        <label for="">Codigo de Seguridad:</label>
-        <input type="text" id="num" placeholder="Escriba un numero"><br><br>
-        <textarea id="historia" cols="30" rows="10" placeholder="Escribe tu historia"></textarea>
-        <textarea id="cifrado" cols="30" rows="10" placeholder="Mensaje Cifrado..."></textarea><br>
-        </form>
-        <button id="cifrar">CIFRAR EL CODIGO</button>
-        <button id="inicio1">IR AL INICIO</button>     
+    <section id = "cuenta">
+        <div id = "cuenta1">
+        <label>ESTAMOS PARA AYUDARTE - CUENTANOS TU HISTORIA</label><br>
+        </div>
+        <div id = "cuenta2">
+            <form id = "form1">
+            <label for = "">Ingrese tus datos:</label>
+            <input type = "text"  id="name" placeholder="Nombres Completos"><br><br>
+            <label for = "">Codigo de Seguridad:</label>
+            <input type = "number" id="num" placeholder="Escriba un numero"><br><br>
+            <textarea id = "historia" cols="30" rows="10" placeholder="Escribe tu historia"></textarea><br>
+            <p id = "cifrado" ></p>
+            </form>
+        </div>
+        <div id="cuenta3">
+        <button id="cifrar" class="mensajes"><b>CIFRAR</b></button><br><br>
+        <button id="limpiar1" class="mensajes"><b>LIMPIAR</b></button><br><br>
+        <button id="inicio1" class="mensajes"><b>IR AL INICIO</b></button>     
+        </div>
     </section>
     
 
-    <section id="descifrando">
-        <h2>DESCIFRADO DE MENSAJES</h2><br>
-        <label for="">Clave de Seguridad:</label>
-        <form id="form2">
-        <input type="text" id="clave" placeholder="Ingrese un numero"><br><br>
-        <textarea id="historia1" cols="30" rows="10" placeholder="Escriba tu mensaje cifrado"></textarea>
-        <textarea id="descifrado" cols="30" rows="10" placeholder="El mensaje real es..."></textarea><br>
+    <section id = "descifrando">
+        <div id = "descifrando1">
+        <label>DESCIFRADO DE MENSAJES</label><br>
+        </div>
+        <div id = "descifrando2">
+        <form id = "form2">
+        <label for = "">Clave de Seguridad:</label>
+        <input type = "number" id="clave" placeholder="Ingrese un numero"><br><br>
+        <textarea id = "historia1" cols="30" rows="10" placeholder="Escriba tu mensaje cifrado"></textarea><br>
+        <p id="descifrado" ></p>
         </form>
-        <button id="descifrar">DESCIFRAR EL CODIGO</button><br><br>
-        
-        <button id="inicio2">IR AL INICIO</button>
+        </div>
+        <div id = "descifrando3">
+        <button id = "descifrar" class="mensajes"><b>DESCIFRAR</b></button><br><br>
+        <button id="limpiar2" class="mensajes"><b>LIMPIAR</b></button><br><br>
+        <button id = "inicio2" class="mensajes"><b>IR AL INICIO</b></button>
+        </div>
 
     </section>
-    <footer>@Mishel Paredes - Laboratoria </footer>
+    <footer><b>@Mishel Paredes - Laboratoria</b></footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
 </body>

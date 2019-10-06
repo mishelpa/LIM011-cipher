@@ -11,16 +11,16 @@ background-image: url(fondo.jpg);
 }
 
 header{
-    margin-top: 5pt;
+    margin-top: 2pt;
     text-align: center;
 }
 
-section
+#ingreso, #info
 {
-    display: inline-block;
-    border:rgb(70, 118, 221) 4pt solid;
-    padding: 10pt;
-    margin:5pt 200pt 80pt;
+    
+    border:#337ab7 4pt solid;
+    padding: 8pt;
+    margin:5pt 200pt 0pt;
     text-align: center;
     background: whitesmoke;
 }
@@ -31,14 +31,14 @@ section
     margin:10pt;
     background: rgb(169, 199, 245);
 }
-button
+#b1,#b2
 {
-  width: 180px;
+  width: 160px;
   height: 60px;
   text-align: center;
   background:rgb(169, 199, 245);
-  font:bold 15pt "Trebuchet MS";
-  border:rgb(70, 118, 221) 2pt solid;
+  font:bold 12pt "Trebuchet MS";
+  border:#337ab7 2pt solid;
   border-radius: 10pt;
 }
 
@@ -57,4 +57,72 @@ img
 {
     width: 220pt;
     height: 120pt;
+}
+
+#cifrado,#descifrado
+{
+    height: 80pt;
+    width: 300pt;
+    border: #337ab7 1pt solid;
+    margin: 0,auto;
+    overflow-wrap: break-word;
+
+}
+textarea
+{
+    height: 80pt;
+    width: 300pt;
+}
+
+#cuenta, #descifrando
+{
+    height:260pt;
+    width: 420pt;
+    margin-left: 280pt;
+    margin-top: 10pt;
+    border:#337ab7 2pt solid;
+    background: whitesmoke; 
+
+}
+#cuenta1,#descifrando1
+{
+    background:#337ab7;
+    color: white;
+    text-align: center;
+}
+
+#cuenta2,#descifrando2
+{
+    padding: 10pt;
+    float: left;
+}
+
+#cuenta3,#descifrando3
+{
+    margin-top: 45pt;
+    float: left;
+}
+
+.mensajes
+{
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10pt;
+  border: #337ab7 2pt solid;
+  font:bold 12pt "Trebuchet MS";
+ 
+  
+}
+
+.mensajes:hover,#b1:hover,#b2:hover
+{
+    background: #337ab7;
+    color: white;
+}
+
+footer
+{
+    margin-top: 30pt;
+    text-align: center;
 }
