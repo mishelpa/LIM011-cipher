@@ -1,17 +1,21 @@
-# Cifrado César
+# CHS ALTERNATIVO - CIFRADO CESAR
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker Edition](#6-hacker-edition)
-* [7. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+[1. Preámbulo](#1-preámbulo)
+[2. Resumen del proyecto](#2-Resumen-del-proyecto)
+[3. Imagen final del proyecto](#3-Imagen final del proyecto)
+[4. Investigación UX](#4-Investigación UX)
+    +Usuarios y los objetivos en relación con el proyecto.
+    +Problemas/necesidades de dichos usuarios.
+    +Primer prototipo en papel.
+    +Feedback recibido.
+    +Imagen del prototipo final.
+
+
 
 ***
-
+<a name='preámbulo'></a>
 ## 1. Preámbulo
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
@@ -56,7 +60,8 @@ ejemplo:
   una zona de conflicto.
 * Mensajería secreta para parejas.
 
-## 3. Objetivos de aprendizaje
+<a name='Imagen final del proyecto'></a>
+## 3. Imagen final del proyecto
 
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando
 aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
