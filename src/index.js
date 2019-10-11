@@ -4,7 +4,7 @@ window.onload = () => {
   document.getElementById('descifrando').classList.add('ocultar')
 
   // Presionar el boton CUENTA TU HISTORIA y te abre una nueva pantalla
-  document.getElementById('b1').addEventListener('click', function () {
+  document.getElementById('b1').addEventListener('click', () => {
     document.getElementById('ingreso').style.display = 'none'
     document.getElementById('cuenta').style.display = 'block'
   })

@@ -30,28 +30,40 @@ El proyecto CHS Alternativo - Cipher Cesar tiene como finalidad de que las perso
 
 ## 3. Imagen final del proyecto
 
-  ### 3.1. Pantalla de Inicio.
+  ### **3.1. Pantalla de Inicio.**
+
+  En esta pantalla se encuentra la informacion de la organización y dos botones: (CONTAR HISTORIA) Y (DESCIFRAR CODIGO). Dichos botones nos llevaran a otras pantallas.
 
   ![Pantalla principal](src/pinicio.png 'Pantalla principal')
-  ### 3.2. Pantalla de Realizar denuncia/ Contar Historia.
+
+  ### **3.2. Pantalla de Realizar denuncia/ Contar Historia.**
+
+  En esta pantalla, la persona escribira su nombre, una clave( ayudará en el proceso de cifrado) y su testimonio.
+
   ![Pantalla cifrar](src/pcifrar.png 'Pantalla para cifrar')
-  ### 3.3. Pantalla de Descifrado de mensajes.
+
+  ### **3.3. Pantalla de Descifrado de mensajes.**
+
+  En esta pantalla la persona digitara una clave y el mensaje que desea cifrar.
+
   ![Pantalla descifrar](src/pdescifrar.png 'Pantalla para descifrar')
 
 ## 4. Investigación UX
 
-### 4.1. Usuarios y Objetivos del proyecto.
+### **4.1. Usuarios y Objetivos del proyecto.**
 
-    [CHS Alternativo](http://chsalternativo.org/chs-alternativo/) es una una organización con 15 años de trabajo promoviendo la protección de los derechos humanos de las personas, en particular de las niñas, niños y adolescentes. 
+  [CHS Alternativo](http://chsalternativo.org/chs-alternativo/) es una una organización con 15 años de trabajo promoviendo la protección de los derechos humanos de las personas, en particular de las niñas, niños y adolescentes. 
 
-  #### a) Usuarios
-    Directos:
-    Los usuarios directos son aquellas personas que han sido victimas de trata de personas, ESNNA(Explotacion sexual de niños, niñas y adolescentes),trabajo forzoso y otros casos que derivan de ellos.
+  #### *a) Usuarios*
+  
+  Directos:  
+  Los usuarios directos son aquellas personas que han sido victimas de trata de personas, ESNNA(Explotacion sexual de niños, niñas y adolescentes),trabajo forzoso y otros casos que derivan de ellos.
 
-    Indirectos:
-    Los usuarios indirectos son personas que han presenciado algun caso y quieren denunciar.
+  Indirectos:  
+  Los usuarios indirectos son personas que han presenciado algun caso y quieren denunciar.
+  Personas cuyo familiar esta desaparecido.
 
-  #### b) Objetivos
+  #### *b) Objetivos*
 
   Principal:
 
@@ -66,7 +78,7 @@ El proyecto CHS Alternativo - Cipher Cesar tiene como finalidad de que las perso
 
   * Generar mayor apoyo por parte de las personas que no son victimas pero que han presenciado estos casos.
 
-### 4.2. Solución de problemas y necesidades de los usuarios.
+### **4.2. Solución de problemas y necesidades de los usuarios.**
 
 El proyecto ayudara a detectar los casos de trata de personas, ESNNA, trabajo forzoso y otros; debido a que las personas haran sus denuncias en la pagina web.
 
@@ -76,24 +88,36 @@ Una vez que ellos hagan la denuncia, toda la informacion sera registrada y estar
 
 Para poder estar en contacto con los denunciantes, nosotros enviaremos informacion cifrada a su correo el cual podran descifrar con la clave que se le envio y accediendo a la pagina.
 
-### 4.3. Primer prototipo en papel.
+### **4.3. Primer prototipo en papel.**
 
-![Primer prototipo](src/papel.png "Primer prototipo")
+![Primer prototipo](src/papel.jpg "Primer prototipo")
 
-### 4.4. Feedback recibido y mejoras realizadas.
+### **4.4. Feedback recibido y mejoras realizadas.**
 
-#### a) Feedback recibido
+#### *a) Feedback recibido*
 
  * Hacer una pantalla de inicio.
  * Poner el nombre y el codigo uno debajo de otro.
  * Darle mejor distribucion de los elemntos.
  * Agregar botones de reiniciar.
 
-#### b) Mejoras Realizadas
+#### *b) Mejoras Realizadas*
 
 * Agregar una pantallade inicio donde se enccuentra la informacion de la organización y dos botones de **CONTAR HISTORIA** y **DESCIFRAR CODIGO**.
 * Se creo dos nuevas pantallas, una de **CIFRADO** y otra de **DESCIFRADO**.
 * Se agrego botones a las dos pantallas: uno de **CIFRAR o DESCIFRAR**, otro de **LIMPIAR** y uno de **VOLVER AL INICIO**.
 
-### 4.5. Imagen del prototipo final.
+### **4.5. Imagen del prototipo final.**
+
+El prototipo final esta realizado en **FIGMA** :
+
+### *a) Pantalla de Inicio.*
+
+![Pantalla principal](src/f1.png 'Pantalla principal')
+
+### *b) Pantalla de Realizar denuncia/ Contar Historia.*
+  ![Pantalla cifrar](src/f2.png 'Pantalla para cifrar')
+
+### *c) Pantalla de Descifrado de mensajes.*
+  ![Pantalla descifrar](src/f3.png 'Pantalla para descifrar')
 
