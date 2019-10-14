@@ -135,31 +135,31 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 
 ### HTML y CSS
 
-- [NO] Uso correcto de HTML semántico.
-- [ SI ] Uso de selectores de CSS.
-- [ SI ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [ ] Uso correcto de HTML semántico.
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- [ SI ] Uso de selectores del DOM.
-- [ SI ] Manejo de eventos del DOM.
-- [ SI ] Manipulación dinámica del DOM.
+- [x] Uso de selectores del DOM.
+- [x] Manejo de eventos del DOM.
+- [x] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [ SI ] Manipulación de strings.
-- [ NO ] Uso de condicionales (if-else | switch).
-- [ SI ] Uso de bucles (for | do-while).	
-- [ NO ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ SI ] Declaración correcta de variables (const & let).
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
+- [ ] Uso de bucles (for | do-while).	
+- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ NO ] Testeo de tus funciones.
+- [ ] Testeo de tus funciones.
 
 ### Git y GitHub
-- [ SI ] Comandos de git (add | commit | pull | status | push).
-- [ NO ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [x] Comandos de git (add | commit | pull | status | push).
+- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [ NO ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ NO ] Uso de linter para seguir buenas prácticas (ESLINT).
+- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
