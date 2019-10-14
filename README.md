@@ -121,3 +121,45 @@ El prototipo final esta realizado en **FIGMA** :
 ### *c) Pantalla de Descifrado de mensajes.*
   ![Pantalla descifrar](src/f3.png 'Pantalla para descifrar')
 
+***
+
+## Objetivos de aprendizaje Cipher
+
+A continuación te presentamos los objetivos de aprendizaje de este proyecto. Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
+
+### UX
+
+- [ SI ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ SI ] Crear prototipos para obtener feedback e iterar.
+- [ SI ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+
+### HTML y CSS
+
+- [ NO ] Uso correcto de HTML semántico.
+- [ SI ] Uso de selectores de CSS.
+- [ SI ] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+### DOM
+
+- [ SI ] Uso de selectores del DOM.
+- [ SI ] Manejo de eventos del DOM.
+- [ SI ] Manipulación dinámica del DOM.
+
+### Javascript
+
+- [ SI ] Manipulación de strings.
+- [ NO ] Uso de condicionales (if-else | switch).
+- [ SI ] Uso de bucles (for | do-while).	
+- [ NO ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [ SI ] Declaración correcta de variables (const & let).
+
+### Testing
+- [ NO ] Testeo de tus funciones.
+
+### Git y GitHub
+- [ SI ] Comandos de git (add | commit | pull | status | push).
+- [ NO ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+
+### Buenas prácticas de desarrollo
+- [ NO ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ NO ] Uso de linter para seguir buenas prácticas (ESLINT).
