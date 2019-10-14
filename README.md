@@ -148,7 +148,7 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 ### Javascript
 
 - [x] Manipulación de strings.
-- [x] Uso de condicionales (if-else | switch).
+- [ ] Uso de condicionales (if-else | switch).
 - [ ] Uso de bucles (for | do-while).	
 - [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
 - [x] Declaración correcta de variables (const & let).
