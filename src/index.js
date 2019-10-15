@@ -44,7 +44,7 @@ window.onload = () => {
 
   // Ocultar mensajes
 
-  document.getElementById('hideAllStory').addEventListener('click', () =>{
+  document.getElementById('hideAllStory').addEventListener('click', () => {
     document.getElementById('textAllStory').style.display = 'none'
     document.getElementById('seeAllStory').style.display = 'block'
     document.getElementById('hideAllStory').style.display = 'none'
