@@ -44,7 +44,7 @@ El proyecto CHS Alternativo - Cipher Cesar tiene como finalidad de que las perso
 
   ### **3.3. Pantalla de Descifrado de mensajes.**
 
-  En esta pantalla la persona digitara una clave y el mensaje que desea cifrar.
+  En esta pantalla la persona podra ver todos los mensajes cifrados, digitara una clave para que los pueda descifrar.
 
   ![Pantalla descifrar](src/pdescifrar.png 'Pantalla para descifrar')
 

@@ -15,7 +15,7 @@ header{
     text-align: center;
 }
 
-#ingreso, #info
+#start, #info
 {
     border:#337ab7 4pt solid;
     padding: 8pt;
@@ -30,7 +30,7 @@ header{
     margin:10pt;
     background: rgb(169, 199, 245);
 }
-#b1,#b2,.ver1
+#bContar,#bDescifrar,.ver1
 {
   width: 160px;
   height: 60px;
@@ -58,7 +58,7 @@ img
     height: 120pt;
 }
 
-#cifrado,#descifrado
+#textEncode,#textDecode
 {
     height: 80pt;
     width: 300pt;
@@ -106,7 +106,7 @@ textarea
     float: left;
 }
 
-.mensajes
+.mainButton
 {
   width: 120px;
   height: 40px;
@@ -116,7 +116,7 @@ textarea
   font:bold 12pt "Trebuchet MS"; 
 }
 
-.mensajes:hover,#b1:hover,#b2:hover
+.mainButton:hover,#bContar:hover,#bDescifrar:hover
 {
     background: #337ab7;
     color: white;
@@ -141,12 +141,12 @@ footer
     color: white;
 }
 
-.ver 
+.allStory
 {
     float: left;
 }
 
-#denuncias
+#textAllStory
 {
     border: #337ab7 2pt solid;
     width: 260pt;
@@ -156,4 +156,11 @@ footer
     margin-left: 15pt;
     overflow-wrap: break-word;
     background: white;
+}
+
+#incomplete
+{
+    color: red;
+    text-align: center;
+    margin-bottom: 20pt;
 }
