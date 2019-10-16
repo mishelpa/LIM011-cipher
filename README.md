@@ -136,7 +136,7 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 ### HTML y CSS
 
 - [ ] Uso correcto de HTML semántico.
-- [x] Uso de selectores de CSS.
+- [ ] Uso de selectores de CSS.
 - [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM

@@ -1,32 +1,24 @@
 module.exports = {
-    'env': {
-        'browser': true,
-        'es6': true
+  env: {
+    browser: true,
+    es6: true,
+  },
+  extends: [
+    'airbnb',
+  ],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
     },
-    'extends': 'eslint:recommended',
-    'globals': {
-        'Atomics': 'readonly',
-        'SharedArrayBuffer': 'readonly'
-    },
-    'parserOptions': {
-        'ecmaVersion': 2018
-    },
-    'rules': {
-        'indent': [
-            'error',
-            4
-        ],
-        'linebreak-style': [
-            'error',
-            'windows'
-        ],
-        'quotes': [
-            'error',
-            'single'
-        ],
-        'semi': [
-            'error',
-            'always'
-        ]
-    }
+    ecmaVersion: 2018,
+  },
+  plugins: [
+    'react',
+  ],
+  rules: {
+  },
 };

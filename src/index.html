@@ -13,63 +13,63 @@
             <img src="logo.png" alt="logo">
     </header>
 
-    <section id = "start">
-        <section id = "info">
+    <section id = "sec-pantalla-inicio">
+        <section id = "sec-informacion-ong">
         <p><b>CHS Alternativo</b> es una organización especializada con 15 años de trabajo promoviendo la protección de los derechos humanos de las personas, en particular de las niñas, niños y adolescentes, en situación de vulnerabilidad a causa de la <b><em>trata de personas, ESNNA, trabajo infantil y trabajo forzoso</em></b>. Su sede central está en la ciudad de Lima y cuenta con tres oficinas regionales en Loreto, Cusco y Madre de Dios. Tiene presencia nacional, a través de sus diversos proyectos e instituciones aliadas, en Piura, Arequipa y Puno.</p>
         </section>
-        <img src="trata.jpg" alt = ""><br>
-        <button id = "bContar"><b>CUENTANOS TU HISTORIA</b></button>
-        <button id = "bDescifrar"><b>DESCIFRAR UN MENSAJE</b></button>
+        <img src="imagen-inicio.jpg" alt = ""><br>
+        <button id = "btn-contar-historia"><b>CUENTANOS TU HISTORIA</b></button>
+        <button id = "btn-descifrar-mensaje"><b>DESCIFRAR MENSAJE</b></button>
     </section>
 
     
-    <section id = "cuenta">
-        <div id = "cuenta1">
+    <section id = "sec-contar-historia">
+        <div id = "titulo-contar-historia">
         <label>ESTAMOS PARA AYUDARTE - CUENTANOS TU HISTORIA</label><br>
         </div>
-        <div id = "cuenta2">
-            <form id = "formCuenta">
+        <div id = "datos-contar-historia">
+            <form id = "form-datos-contar-historia">
             <label for = "">Ingrese tus datos:</label>
-            <input type = "text"  id="textName" placeholder="Nombres Completos"><br><br>
+            <input type = "text"  id="text-nombre-cifrar" placeholder="Nombres Completos"><br><br>
             <label for = "">Codigo de Seguridad:</label>
-            <input type = "number" id="textKeyCuenta" placeholder="Número"><br><br>
-            <textarea id = "textStory" cols="30" rows="10" placeholder="Escribe tu historia"></textarea><br>
-            <p id = "textEncode" ></p>
+            <input type = "number" id="text-codigo-cifrar" placeholder="Número"><br><br>
+            <textarea id = "text-historia-cifrar" cols="30" rows="10" placeholder="Escribe tu historia"></textarea><br>
+            <p id = "parrafo-mensaje-cifrado" ></p>
             </form>
         </div>
-        <div id="cuenta3">
-        <button id="cifrarCuenta" class="mainButton"><b>CIFRAR</b></button><br><br>
-        <button id="cleanCuenta" class="mainButton"><b>LIMPIAR</b></button><br><br>
-        <button id="startCuenta" class="mainButton"><b>IR AL INICIO</b></button>     
+        <div id="btns-contar-historia">
+        <button id="btn-cifrar-contar-historia" class="btnsCipher"><b>CIFRAR</b></button><br><br>
+        <button id="btn-limpiar-contar-historia" class="btnsCipher"><b>LIMPIAR</b></button><br><br>
+        <button id="btn-volver-contar-historia" class="btnsCipher"><b>IR AL INICIO</b></button>     
         </div>
     </section>
     
-    <section id='allStory'>
-        <button id="seeAllStory" class="ver1">VER DENUNCIAS</button>
-        <button id="hideAllStory" class="ver1">OCULTAR</button><br>
-        <p id="textAllStory"></p>
+    <section id='sec-ver-historia'>
+        <button id="btn-mostrar-historia" class="btn-ver-historia">MOSTRAR HISTORIAS</button>
+        <button id="btn-ocultar-historia" class="btn-ver-historia">OCULTAR HISTORIAS</button><br>
+        <p id="parrafo-historias-acumuladas"></p>
     </section>
 
-    <section id = "descifrando">
-        <div id = "descifrando1">
+    <section id = "sec-descifrar-mensaje">
+        <div id = "titulo-descifrar-mensaje">
         <label>DESCIFRADO DE MENSAJES</label><br>
         </div>
-        <div id = "descifrando2">
-        <form id = "formDescifrando">
+        <div id = "datos-descifrar-mensaje">
+        <form id = "form-datos-descifrar-mensaje">
         <label for = "">Clave de Seguridad:</label>
-        <input type = "number" id="textKeyDescifrando" placeholder="Número"><br><br>
-        <textarea id = "textStoryDescifrando" cols="30" rows="10" placeholder="Escriba tu mensaje cifrado"></textarea><br>
-        <p id="textDecode" ></p>
+        <input type = "number" id="text-codigo-descifrar" placeholder="Número"><br><br>
+        <textarea id = "text-historia-descifrar" cols="30" rows="10" placeholder="Escriba tu mensaje cifrado"></textarea><br>
+        <p id="parrafo-mensaje-descifrado"></p>
         </form>
         </div>
-        <div id = "descifrando3">
-        <button id = "descifrarDescifrando" class="mainButton"><b>DESCIFRAR</b></button><br><br>
-        <button id="cleanDescifrando" class="mainButton"><b>LIMPIAR</b></button><br><br>
-        <button id = "startDescifrando" class="mainButton"><b>IR AL INICIO</b></button>
+        <div id = "btns-descifrar-mensaje">
+        <button id = "btn-descifrar-descifrar-mensaje" class="btnsCipher"><b>DESCIFRAR</b></button><br><br>
+        <button id="btn-limpiar-descifrar-mensaje" class="btnsCipher"><b>LIMPIAR</b></button><br><br>
+        <button id = "btn-volver-descifrar-mensaje" class="btnsCipher"><b>IR AL INICIO</b></button>
         </div>
     </section>
 
-    <section id="incomplete"></section>
+    <section id="completar-datos"></section>
 
     <footer><b>@Mishel Paredes - Laboratoria</b></footer>
     <script src="cipher.js"></script>

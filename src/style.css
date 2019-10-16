@@ -15,7 +15,7 @@ header{
     text-align: center;
 }
 
-#start, #info
+#sec-pantalla-inicio, #sec-informacion-ong
 {
     border:#337ab7 4pt solid;
     padding: 8pt;
@@ -24,13 +24,13 @@ header{
     background: whitesmoke;
 }
 
-#info
+#sec-informacion-ong
 {
     text-align: justify;
     margin:10pt;
     background: rgb(169, 199, 245);
 }
-#bContar,#bDescifrar,.ver1
+#btn-contar-historia,#btn-descifrar-mensaje,.ver1
 {
   width: 160px;
   height: 60px;
@@ -58,7 +58,7 @@ img
     height: 120pt;
 }
 
-#textEncode,#textDecode
+#parrafo-mensaje-cifrado,#parrafo-mensaje-descifrado
 {
     height: 80pt;
     width: 300pt;
@@ -73,7 +73,7 @@ textarea
     width: 300pt;
 }
 
-#cuenta, #descifrando
+#sec-contar-historia, #sec-descifrar-mensaje
 {
     height:260pt;
     width: 420pt;
@@ -83,30 +83,30 @@ textarea
     background: whitesmoke; 
     
 }
-#descifrando
+#sec-descifrar-mensaje
 {
     margin-left: 300pt;    
 }
-#cuenta1,#descifrando1
+#titulo-contar-historia,#titulo-descifrar-mensaje
 {
     background:#337ab7;
     color: white;
     text-align: center;
 }
 
-#cuenta2,#descifrando2
+#datos-contar-historia,#datos-descifrar-mensaje
 {
     padding: 10pt;
     float: left;
 }
 
-#cuenta3,#descifrando3
+#btns-contar-historia,#btns-descifrar-mensaje
 {
     margin-top: 45pt;
     float: left;
 }
 
-.mainButton
+.btnsCipher
 {
   width: 120px;
   height: 40px;
@@ -116,7 +116,7 @@ textarea
   font:bold 12pt "Trebuchet MS"; 
 }
 
-.mainButton:hover,#bContar:hover,#bDescifrar:hover
+.btnsCipher:hover,#btn-contar-historia:hover,#btn-descifrar-mensaje:hover
 {
     background: #337ab7;
     color: white;
@@ -128,25 +128,25 @@ footer
     text-align: center;
 }
 
-.ver1
+.btns-ver-historia
 {
     margin-left: 100pt;
     margin-top: 10pt;
 
 }
 
-.ver1:hover
+.btns-ver-historia:hover
 {
     background: #337ab7;
     color: white;
 }
 
-.allStory
+.sec-ver-historia
 {
     float: left;
 }
 
-#textAllStory
+#parrafo-historias-acumuladas
 {
     border: #337ab7 2pt solid;
     width: 260pt;
@@ -158,7 +158,7 @@ footer
     background: white;
 }
 
-#incomplete
+#completar-datos
 {
     color: red;
     text-align: center;
